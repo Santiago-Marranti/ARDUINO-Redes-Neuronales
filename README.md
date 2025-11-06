@@ -14,7 +14,7 @@ Este proyecto implementa un **coche inteligente controlado por una red neuronal 
 El objetivo es que el vehículo aprenda a tomar decisiones automáticamente, reconociendo patrones de entrada (como sensores de distancia) y ajustando sus movimientos (salidas) de acuerdo a los datos aprendidos.
 
 🔗 **Simulación en Wokwi:**  
-👉 [Ver Proyecto en Wokwi](https://wokwi.com/projects/446073684209624065)
+👉 [Ver Proyecto en Wokwi](https://wokwi.com/projects/446829487827187713)
 
 🔗 **Fuente original del modelo:**  
 👉 [Aprende Machine Learning - Coche con IA](https://www.aprendemachinelearning.com/programa-un-coche-arduino-con-inteligencia-artificial/)
@@ -213,4 +213,9 @@ y_D = np.array([
 ```bash
 git clone https://github.com/Santiago-Marranti/ARDUINO-Redes-Neuronales
 
+
+## 🧠 Códigos
+En la carpeta de `Entrenamiento` se encuentra la red neuronal `RedNeuronal.py` en Python y la clase `main.py` que fue modificada para que en una carpeta `output` se guarde el archivo con las matrices a reemplazar, que seria el resultado obtenido del entrenamiento.
+
+En la carpeta de `Arduino` se encuentra el código que va grabado en la placa y que hace funcionar a este coche con una red neuronal incorporada. Aqui una vez se ha entrenado la red neuronal (es opcional, porque ya funciona como está) pueden reemplazarse las matrices con los resultados anteriormente mencionados para lograr una mejor toma de decisiones de la inteligencia artificial.
 
