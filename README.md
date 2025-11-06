@@ -212,7 +212,7 @@ y_D = np.array([
 
 ```bash
 git clone https://github.com/Santiago-Marranti/ARDUINO-Redes-Neuronales
-
+```
 
 ## 🧠 Códigos
 En la carpeta de `Entrenamiento` se encuentra la red neuronal `RedNeuronal.py` en Python y la clase `main.py` que fue modificada para que en una carpeta `output` se guarde el archivo con las matrices a reemplazar, que seria el resultado obtenido del entrenamiento.
